@@ -1,0 +1,104 @@
+body{
+    background-color: #f7cacd;
+    padding: 0;
+    box-sizing: border-box;   
+    margin: 0%; 
+}
+nav{
+    background-color: #0d3b66;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    margin: 0%;
+    border: solid 1px #0d3b66; 
+    z-index: 4;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 4px;
+    margin-top: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 26px;
+    color: #ffffff;
+}
+nav ul li a:hover{
+    color: #000;
+    background-color: #f4d35e;
+}
+header img{
+    width: 14%;
+    height: 70%;
+}
+.map{
+    right: 4%;
+    top: 17%;
+    float: right;
+    position: absolute;
+    
+}
+aside div{
+    background-color: #bd6b73;
+    border: double 3px #000;
+    width: 367px;
+    height: 300px;
+    top: 70%;
+    right: 4%;
+    position: absolute;
+}
+.resources{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+}
+aside .copy{
+    text-align: center;
+    padding: 1%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.main-copy h2{
+    font-size: 40px;
+}
+.main-copy{
+    height: 500px;
+    width: 600px;
+    color: #000;
+    clear: left;
+    position: absolute;
+    right: 33%;
+    top: 4%;
+    font-size: 22px;
+    padding: 4%  
+}
+.music{
+    margin: -112px 0px 15px 250px;
+    position: inherit;
+}
+footer{
+    height: 90px;
+    width: 100%;
+    background-color: #b0b3be;
+    position: absolute;
+    margin-top: -2px;
+}
+footer li{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    margin: 7px 30px;
+    left: 34%;
+    top: 60%;
+}
