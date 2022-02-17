@@ -36,6 +36,14 @@ nav ul li a:hover{
     color: #000;
     background-color: #f4d35e;
 }
+nav li img{
+    clear: left; 
+    position: absolute;
+    z-index: 8;
+    height: 50px;
+    width: 50px;
+    top: 8px; 
+}
 header img{
     width: 14%;
     height: 70%;
